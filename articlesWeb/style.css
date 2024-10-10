@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Top{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0; 
+}
+.title{
+    position: absolute;
+    left: 125px
+}
+.date{
+    position: absolute;
+    right: 125px;
+}
+
+hr{
+    height: 3px;
+    background-color: black;
+    box-shadow: 0 0 3px 0.3px;
+    border: none;
+} 
+.headline{
+    font-family: "Oswald";
+    font-size: 64px;
+}
+.content-container{
+    margin: 0;
+}
+.half{
+    margin-right: 50%;
+    box-shadow: none;
+    height: 2px;
+}
+.brownyMel{
+    position: absolute;
+    right: 170px;
+    top: 300px;
+    background-color: white;
+}
+
+.content-text{
+    margin-right: 48%;
+    font-size: 24px;
+    text-align: left;
+}
+
+.middleline{
+    font-size: 54px;
+    margin: 0;
+    font-family: "Oswald";
+    padding: 15px;
+}
+.pic1{
+    position: relative;
+    bottom: 20px;
+}
+.pic2{
+    position: relative;
+    bottom: 50px;
+}
+.half1{
+    margin-left: 45%;
+    box-shadow: none;
+    height: 2px;
+}
+.content-text-champ{
+    position: absolute;
+    margin-right: 100px;
+    text-align: right;
+    text-align:justify;
+    font-size: 24px;
+    margin-left: 5px;
+}
+.end{
+    margin-top: 80px ;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 54px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.end::before{
+    content: "";
+    height: 2px;
+    width: 40%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.end::after{
+    content: "";
+    height: 2px;
+    width: 40%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 60%;
+}
+.mrRight{
+    padding: 10px;
+    position: absolute;
+    margin-left: 45%;
+}
+.content-text-ace{
+    position: relative;
+    margin-right : 50%;
+    text-align: left;
+    font-size: 24px;
+}
+.content-text-ace2{
+    text-align: justify;
+    font-size: 24px;
+}
