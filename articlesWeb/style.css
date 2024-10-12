@@ -335,6 +335,7 @@ hr{
     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
 }
 .more h1,.more h3{
+    font-family: "Oswald";
     color: #FAF9F6;
 }
 .up-next p{
